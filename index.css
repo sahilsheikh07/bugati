@@ -1,0 +1,111 @@
+* {
+    margin: 10px 20px;
+    
+}
+body{
+    background-image: url("img/bike_red.jpg");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+
+}
+#H1{
+    margin-left: -45px;
+}
+.bmw{
+    color: red;
+    font-size: 40px;
+}
+h3{
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+    padding: 6px 30px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+h3:hover{
+cursor: pointer;
+color: grey;
+}
+
+#head {
+    margin-top: 75px;
+
+}
+
+.grid h1 {
+    font-size: 40px;
+}
+
+.color {
+    display: grid;
+    grid-template-columns: 0.07fr 0.07fr 1fr;
+}
+
+#red {
+    border-radius: 20px;
+    background-color: red;
+    border: 1px solid gray;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 1.7px 8px;
+    transition: 0.2s;
+}
+#red:hover{
+    cursor: pointer;
+    color: lightgoldenrodyellow;
+}
+
+#blue {
+    border-radius: 20px;
+    background-color: blue;
+    border: 1px solid gray;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 1.7px 8px;
+    transition: 0.2s;
+}
+#blue:hover{
+    cursor: pointer;
+    color: lightgoldenrodyellow;
+}
+
+#black {
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid gray;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 1.7px 8px;
+    transition: 0.2s;
+    
+}
+#black:hover{
+    cursor: pointer;
+    color: lightgoldenrodyellow; 
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.img img {
+    height: 512px;
+    width: 688px;
+    margin-top: -40%;
+
+}
